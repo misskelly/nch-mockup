@@ -1,3 +1,5 @@
+/* ////// UNIVERSAL ////// */
+
 *:after,
 *:before {
   box-sizing: border-box;
@@ -17,6 +19,20 @@ li {
   list-style-type: none;
   padding: 0;
   color: inherit;
+}
+
+.main {
+  padding: 5rem 0 0 20%;
+  width: 80%;
+  min-height: 100vh;
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 0;
+  background: hsl(195, 5%, 71%);
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
 }
 
 /* ////// HEADER ////// */
@@ -105,8 +121,6 @@ button {
 }
 
 .menu-item {
-  padding-left: 35px;
-  width: 100%;
   text-transform: uppercase;
   padding: 1rem 0 1rem 2rem;
   transition: all 0.3s;
@@ -117,4 +131,53 @@ button {
   color: #333333;
   background-color: #ffffff;
   border-left: 5px solid #f85323;
+}
+
+/* ////// TABLE ////// */
+
+table {
+  table-layout: fixed;
+  width: 90%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 0.5rem 0;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+th {
+  /* width: 10rem; */
+}
+
+.table-section {
+  width: 100%;
+}
+.customer-survey-table {
+  background: #ffffff;
+  /* width: 85%; */
+  margin: 3rem auto;
+  border-radius: 5px;
+}
+
+.category {
+  font-weight: bold;
+}
+.yellow {
+  background-color: #ddc700;
+}
+
+.green {
+  background-color: #29a571;
+}
+
+.red {
+  background-color: #9e0000;
+  color: #ffffff;
 }
