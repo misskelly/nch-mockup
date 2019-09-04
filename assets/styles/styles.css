@@ -18,6 +18,9 @@ li {
   padding: 0;
   color: inherit;
 }
+
+/* ////// HEADER ////// */
+
 .header {
   position: fixed;
   width: 100%;
@@ -44,4 +47,46 @@ button {
   text-transform: uppercase;
   border-radius: 5px;
   transition: all 0.3s;
+}
+
+/* ////// ASIDE ////// */
+
+.dashboard {
+  width: 20%;
+  background: #004c66;
+  height: 100rem;
+  position: fixed;
+  margin: 0;
+  color: white;
+  font-size: 18px;
+  top: 0;
+  z-index: 5;
+}
+
+.user-section {
+  background: #51748c;
+  width: 100%;
+  margin: 0;
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-bottom: 3px solid #f85323;
+}
+
+.user-img-wrapper {
+  margin: 0 auto;
+  width: 45%;
+}
+.user-img {
+  width: 100%;
+  border-radius: 50%;
+  border: solid 1px white;
+}
+
+.user-name {
+  margin: 0;
+  padding: 0 1rem 1rem 1rem;
+  font-size: 1.5rem;
 }
